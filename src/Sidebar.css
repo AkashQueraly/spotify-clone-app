@@ -22,7 +22,8 @@
   height: 70px;
   padding: 10px;
 }
-.sideScroll{
+.sideScroll {
+  display: none;
   height: 60vh;
-overflow-y: scroll;
+  overflow-y: scroll;
 }

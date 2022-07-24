@@ -1,6 +1,6 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
-const clientId = "f8b5c24a562c495db22e884fceaa3654";
-const redirectUri = "https://saksham-spotify.netlify.app/";
+const clientId = "1ea9a96532974a7dba2540508517499a";
+const redirectUri = "http://localhost:3000/";
 
 const scopes = [
   "user-read-currently-playing",
@@ -13,6 +13,7 @@ const scopes = [
 export const getTokenFromUrl = () => {
   return window.location.hash
   .substring(1).split("&").reduce((initial, item) => {
+    // #accessToken=mysupersecretkey&name=akash
     let parts = item.split("=");
     initial[parts[0]] = decodeURIComponent(parts[1]);
 

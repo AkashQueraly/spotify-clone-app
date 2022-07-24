@@ -17,7 +17,14 @@
 
 .header__left > input {
   border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  border-radius: 500px;
+  height: 20px;
   width: 100%;
+  padding: 4px 35px;
+  text-overflow: ellipsis;
 }
 
 .header__right {
@@ -26,5 +33,5 @@
 }
 
 .header__right > h4 {
-    margin-left: 10px;
+  margin-left: 10px;
 }
