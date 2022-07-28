@@ -29,6 +29,7 @@ function App() {
         });
       });
       spotify.getUserPlaylists().then((playlists) => {
+        debugger
         dispatch({
           type: "SET_PLAYLISTS",
           playlists: playlists,

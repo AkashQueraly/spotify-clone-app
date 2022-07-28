@@ -5,11 +5,11 @@ export const initialState = {
   item: null,
   // dialy_mix:null,
   // Remove after finish developing
-  token: null,
+
 };
 
 const reducer = (state, action) => {
-  // console.log(action)
+   console.log(action)
 
   // Action-> type and payload
 
