@@ -23,3 +23,11 @@
   padding: 10px;
 }
 
+.sideScroll{
+  height: 60vh;
+overflow-y: scroll;
+}
+
+.sideScroll::-webkit-scrollbar {
+  display: none;
+}
